@@ -1,0 +1,1566 @@
+[
+  {
+    "key": "parent",
+    "name": "Parent"
+  },
+  {
+    "key": "statusCategory",
+    "name": "Status Category"
+  },
+  {
+    "key": "resolution",
+    "name": "Resolution"
+  },
+  {
+    "key": "customfield_10510",
+    "name": "Admin Perguruan Tinggi"
+  },
+  {
+    "key": "customfield_10500",
+    "name": "PIC Backup Neofeeder dari Devops"
+  },
+  {
+    "key": "customfield_10501",
+    "name": "branch_name"
+  },
+  {
+    "key": "customfield_10502",
+    "name": "Reporter"
+  },
+  {
+    "key": "customfield_10503",
+    "name": "Summary"
+  },
+  {
+    "key": "customfield_10504",
+    "name": "Link File"
+  },
+  {
+    "key": "customfield_10505",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10506",
+    "name": "QA/Tester"
+  },
+  {
+    "key": "customfield_10507",
+    "name": "Start Working"
+  },
+  {
+    "key": "customfield_10508",
+    "name": "Release Date"
+  },
+  {
+    "key": "customfield_10509",
+    "name": "Admin Perguruan Tinggi"
+  },
+  {
+    "key": "lastViewed",
+    "name": "Last Viewed"
+  },
+  {
+    "key": "aggregatetimeoriginalestimate",
+    "name": "Σ Original Estimate"
+  },
+  {
+    "key": "issuelinks",
+    "name": "Linked Issues"
+  },
+  {
+    "key": "assignee",
+    "name": "Assignee"
+  },
+  {
+    "key": "subtasks",
+    "name": "Sub-tasks"
+  },
+  {
+    "key": "votes",
+    "name": "Votes"
+  },
+  {
+    "key": "worklog",
+    "name": "Log Work"
+  },
+  {
+    "key": "issuetype",
+    "name": "Issue Type"
+  },
+  {
+    "key": "timetracking",
+    "name": "Time tracking"
+  },
+  {
+    "key": "environment",
+    "name": "Environment"
+  },
+  {
+    "key": "duedate",
+    "name": "Due date"
+  },
+  {
+    "key": "customfield_10230",
+    "name": "Admin Perguruan Tinggi"
+  },
+  {
+    "key": "customfield_10231",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10232",
+    "name": "BAGIAN INI DAN ATTACHMENT MOHON DIABAIKAN"
+  },
+  {
+    "key": "customfield_10112",
+    "name": "Content type"
+  },
+  {
+    "key": "customfield_10233",
+    "name": "Request participants"
+  },
+  {
+    "key": "customfield_10113",
+    "name": "Publication date"
+  },
+  {
+    "key": "customfield_10234",
+    "name": "Start Working"
+  },
+  {
+    "key": "customfield_10114",
+    "name": "Budget"
+  },
+  {
+    "key": "customfield_10235",
+    "name": "Time Tracking"
+  },
+  {
+    "key": "customfield_10356",
+    "name": "Target Revenue"
+  },
+  {
+    "key": "customfield_10104",
+    "name": "Bobot dan Prioritas"
+  },
+  {
+    "key": "customfield_10225",
+    "name": "H+ Validasi"
+  },
+  {
+    "key": "customfield_10105",
+    "name": "Assignee Role"
+  },
+  {
+    "key": "customfield_10226",
+    "name": "Produk"
+  },
+  {
+    "key": "customfield_10106",
+    "name": "Status Permintaan"
+  },
+  {
+    "key": "customfield_10227",
+    "name": "Dokumen PIC"
+  },
+  {
+    "key": "customfield_10469",
+    "name": "Checklist Teknis"
+  },
+  {
+    "key": "customfield_10107",
+    "name": "Handled by"
+  },
+  {
+    "key": "customfield_10228",
+    "name": "Admin Perguruan Tinggi"
+  },
+  {
+    "key": "customfield_10108",
+    "name": "Poin"
+  },
+  {
+    "key": "customfield_10229",
+    "name": "Log Total"
+  },
+  {
+    "key": "customfield_10109",
+    "name": "Tanggal Deadline Validasi Data"
+  },
+  {
+    "key": "customfield_10340",
+    "name": "Link RSP/Changelog"
+  },
+  {
+    "key": "customfield_10220",
+    "name": "Tags"
+  },
+  {
+    "key": "customfield_10221",
+    "name": "Description (wajib)"
+  },
+  {
+    "key": "customfield_10100",
+    "name": "Link Folder"
+  },
+  {
+    "key": "customfield_10222",
+    "name": "URL Case"
+  },
+  {
+    "key": "customfield_10101",
+    "name": "Work Start date"
+  },
+  {
+    "key": "customfield_10223",
+    "name": "Due date"
+  },
+  {
+    "key": "customfield_10465",
+    "name": "Link Laporan Migrasi"
+  },
+  {
+    "key": "customfield_10224",
+    "name": "QA/Tester"
+  },
+  {
+    "key": "customfield_10103",
+    "name": "Requested User"
+  },
+  {
+    "key": "customfield_10466",
+    "name": "Opportunity value"
+  },
+  {
+    "key": "customfield_10335",
+    "name": "Test Case"
+  },
+  {
+    "key": "customfield_10217",
+    "name": "Kode PDDIKTI"
+  },
+  {
+    "key": "timeestimate",
+    "name": "Remaining Estimate"
+  },
+  {
+    "key": "customfield_10218",
+    "name": "Status"
+  },
+  {
+    "key": "customfield_10219",
+    "name": "Prospek"
+  },
+  {
+    "key": "status",
+    "name": "Status"
+  },
+  {
+    "key": "customfield_10330",
+    "name": "Test Owner"
+  },
+  {
+    "key": "customfield_10210",
+    "name": "Basic  value Date"
+  },
+  {
+    "key": "customfield_10331",
+    "name": "Test Environment"
+  },
+  {
+    "key": "customfield_10211",
+    "name": "Promise Value Date"
+  },
+  {
+    "key": "customfield_10332",
+    "name": "Test ID"
+  },
+  {
+    "key": "customfield_10333",
+    "name": "Labels"
+  },
+  {
+    "key": "customfield_10334",
+    "name": "Test Execution Date"
+  },
+  {
+    "key": "customfield_10203",
+    "name": "Training Date"
+  },
+  {
+    "key": "customfield_10324",
+    "name": "Test Status"
+  },
+  {
+    "key": "customfield_10204",
+    "name": "Basic Value Date"
+  },
+  {
+    "key": "customfield_10325",
+    "name": "Test Steps"
+  },
+  {
+    "key": "customfield_10205",
+    "name": "Kejar "
+  },
+  {
+    "key": "customfield_10326",
+    "name": "Test Steps:"
+  },
+  {
+    "key": "customfield_10206",
+    "name": "KickOff Date"
+  },
+  {
+    "key": "customfield_10327",
+    "name": "Expected Results:"
+  },
+  {
+    "key": "aggregatetimeestimate",
+    "name": "Σ Remaining Estimate"
+  },
+  {
+    "key": "customfield_10207",
+    "name": "Migrasi Date"
+  },
+  {
+    "key": "customfield_10328",
+    "name": "Actual Results"
+  },
+  {
+    "key": "customfield_10208",
+    "name": "Handover Date"
+  },
+  {
+    "key": "customfield_10329",
+    "name": "Test Priority"
+  },
+  {
+    "key": "customfield_10209",
+    "name": "Training Date"
+  },
+  {
+    "key": "creator",
+    "name": "Creator"
+  },
+  {
+    "key": "customfield_10440",
+    "name": "Expectation"
+  },
+  {
+    "key": "customfield_10320",
+    "name": "Link Feedback BAST"
+  },
+  {
+    "key": "customfield_10441",
+    "name": "Test Plan & Test Case"
+  },
+  {
+    "key": "customfield_10321",
+    "name": "Tgl Feedback BAST"
+  },
+  {
+    "key": "customfield_10442",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10201",
+    "name": "KickOff Date"
+  },
+  {
+    "key": "customfield_10322",
+    "name": "Pending Reasoning"
+  },
+  {
+    "key": "customfield_10443",
+    "name": "QA Feedback"
+  },
+  {
+    "key": "customfield_10202",
+    "name": "Migrasi Date"
+  },
+  {
+    "key": "customfield_10313",
+    "name": "PIC Pemusnahan Data di Starlord"
+  },
+  {
+    "key": "customfield_10314",
+    "name": "PIC Pemusnahan Data di DevOps"
+  },
+  {
+    "key": "customfield_10315",
+    "name": "inprogress_opsec_destroy_start"
+  },
+  {
+    "key": "customfield_10316",
+    "name": "inprogress_opsec_destroy_end"
+  },
+  {
+    "key": "customfield_10437",
+    "name": "Environment"
+  },
+  {
+    "key": "customfield_10317",
+    "name": "Goals"
+  },
+  {
+    "key": "customfield_10438",
+    "name": "Account"
+  },
+  {
+    "key": "customfield_10318",
+    "name": "Remarks"
+  },
+  {
+    "key": "customfield_10439",
+    "name": "Problem"
+  },
+  {
+    "key": "customfield_10319",
+    "name": "Jenis Isu"
+  },
+  {
+    "key": "timespent",
+    "name": "Time Spent"
+  },
+  {
+    "key": "aggregatetimespent",
+    "name": "Σ Time Spent"
+  },
+  {
+    "key": "customfield_10310",
+    "name": "Tanggal Pemusnahan Data"
+  },
+  {
+    "key": "customfield_10311",
+    "name": "PIC Backup Data dari Starlord"
+  },
+  {
+    "key": "customfield_10312",
+    "name": "PIC Backup Data dari DevOps"
+  },
+  {
+    "key": "customfield_10302",
+    "name": "inprogress_opsec_end"
+  },
+  {
+    "key": "customfield_10303",
+    "name": "inreview_start"
+  },
+  {
+    "key": "customfield_10304",
+    "name": "inreview_end"
+  },
+  {
+    "key": "customfield_10305",
+    "name": "cancel_date"
+  },
+  {
+    "key": "customfield_10306",
+    "name": "pending_start"
+  },
+  {
+    "key": "customfield_10307",
+    "name": "pending_end"
+  },
+  {
+    "key": "customfield_10308",
+    "name": "Link Siakad"
+  },
+  {
+    "key": "customfield_10309",
+    "name": "Data Destroyed Start Date"
+  },
+  {
+    "key": "workratio",
+    "name": "Work Ratio"
+  },
+  {
+    "key": "customfield_10540",
+    "name": "Link RSP"
+  },
+  {
+    "key": "customfield_10300",
+    "name": "inprogress_starlord_end"
+  },
+  {
+    "key": "customfield_10301",
+    "name": "inprogress_opsec_start"
+  },
+  {
+    "key": "customfield_10533",
+    "name": "Alasan Pending"
+  },
+  {
+    "key": "customfield_10413",
+    "name": "Checklist"
+  },
+  {
+    "key": "customfield_10534",
+    "name": "Alasan Rejected"
+  },
+  {
+    "key": "customfield_10414",
+    "name": "SRS"
+  },
+  {
+    "key": "customfield_10535",
+    "name": "Acceptances Criteria"
+  },
+  {
+    "key": "customfield_10415",
+    "name": "Requirement"
+  },
+  {
+    "key": "customfield_10537",
+    "name": "QA Feedback"
+  },
+  {
+    "key": "customfield_10538",
+    "name": "Test Case"
+  },
+  {
+    "key": "customfield_10539",
+    "name": "Complete Documentation"
+  },
+  {
+    "key": "customfield_10530",
+    "name": "Persiapan Rilis On Production"
+  },
+  {
+    "key": "customfield_10531",
+    "name": "Modul"
+  },
+  {
+    "key": "customfield_10532",
+    "name": "Bug Found"
+  },
+  {
+    "key": "customfield_10522",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10523",
+    "name": "QA/Tester"
+  },
+  {
+    "key": "customfield_10524",
+    "name": "QA"
+  },
+  {
+    "key": "customfield_10525",
+    "name": "QA Feedback"
+  },
+  {
+    "key": "customfield_10526",
+    "name": "Test Plan"
+  },
+  {
+    "key": "customfield_10527",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10528",
+    "name": "Acceptance Criteria:"
+  },
+  {
+    "key": "customfield_10529",
+    "name": "QA/Tester"
+  },
+  {
+    "key": "customfield_10520",
+    "name": "Test Result"
+  },
+  {
+    "key": "customfield_10511",
+    "name": "Kode PT"
+  },
+  {
+    "key": "customfield_10512",
+    "name": "Due Date BAST"
+  },
+  {
+    "key": "customfield_10513",
+    "name": "Jenis Penyesuaian"
+  },
+  {
+    "key": "customfield_10514",
+    "name": "Original Estimate"
+  },
+  {
+    "key": "customfield_10515",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10516",
+    "name": "QA testing"
+  },
+  {
+    "key": "customfield_10517",
+    "name": "Tester/QA"
+  },
+  {
+    "key": "customfield_10518",
+    "name": "Vendor Aplikasi Lama"
+  },
+  {
+    "key": "customfield_10519",
+    "name": "Jenis Database Aplikasi Lama"
+  },
+  {
+    "key": "customfield_10073",
+    "name": "Tanggal"
+  },
+  {
+    "key": "customfield_10074",
+    "name": "Student Body"
+  },
+  {
+    "key": "customfield_10075",
+    "name": "Website"
+  },
+  {
+    "key": "customfield_10196",
+    "name": "Kategori Task"
+  },
+  {
+    "key": "customfield_10076",
+    "name": "Email"
+  },
+  {
+    "key": "customfield_10197",
+    "name": "Kode PT - Nama PT Singkat"
+  },
+  {
+    "key": "customfield_10077",
+    "name": "Phone number"
+  },
+  {
+    "key": "customfield_10198",
+    "name": "Status"
+  },
+  {
+    "key": "customfield_10199",
+    "name": "Pelatihan"
+  },
+  {
+    "key": "customfield_10180",
+    "name": "Modul"
+  },
+  {
+    "key": "customfield_10181",
+    "name": "Menu"
+  },
+  {
+    "key": "customfield_10182",
+    "name": "Nama Universitas"
+  },
+  {
+    "key": "customfield_10183",
+    "name": "KOde PT"
+  },
+  {
+    "key": "customfield_10184",
+    "name": "Catatan Kendala Klien / Internal"
+  },
+  {
+    "key": "customfield_10185",
+    "name": "Role"
+  },
+  {
+    "key": "customfield_10068",
+    "name": "Nama Perguruan Tinggi"
+  },
+  {
+    "key": "customfield_10189",
+    "name": "Ticket LiveChat"
+  },
+  {
+    "key": "labels",
+    "name": "Labels"
+  },
+  {
+    "key": "components",
+    "name": "Components"
+  },
+  {
+    "key": "customfield_10290",
+    "name": "Sumber Migrasi Data"
+  },
+  {
+    "key": "customfield_10291",
+    "name": "Progress Migrasi Data"
+  },
+  {
+    "key": "customfield_10170",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10292",
+    "name": "Collaborator"
+  },
+  {
+    "key": "customfield_10171",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10172",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10051",
+    "name": "QA/Tester"
+  },
+  {
+    "key": "customfield_10293",
+    "name": "Collaborator"
+  },
+  {
+    "key": "customfield_10173",
+    "name": "User Request"
+  },
+  {
+    "key": "customfield_10052",
+    "name": "Url"
+  },
+  {
+    "key": "customfield_10174",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10053",
+    "name": "Url"
+  },
+  {
+    "key": "customfield_10175",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10054",
+    "name": "Peoples in Charge (Assignees)"
+  },
+  {
+    "key": "customfield_10296",
+    "name": "[INFORMASI] - Link Panduan Jira"
+  },
+  {
+    "key": "customfield_10176",
+    "name": "Role"
+  },
+  {
+    "key": "customfield_10055",
+    "name": "Client"
+  },
+  {
+    "key": "customfield_10297",
+    "name": "Kode PT"
+  },
+  {
+    "key": "customfield_10298",
+    "name": "Sentiment"
+  },
+  {
+    "key": "customfield_10056",
+    "name": "Reference"
+  },
+  {
+    "key": "customfield_10177",
+    "name": "Halaman"
+  },
+  {
+    "key": "customfield_10178",
+    "name": "Role"
+  },
+  {
+    "key": "customfield_10299",
+    "name": "inprogress_starlord_start"
+  },
+  {
+    "key": "customfield_10179",
+    "name": "Quality Assurances"
+  },
+  {
+    "key": "customfield_10280",
+    "name": "Status Pembayaran PO"
+  },
+  {
+    "key": "customfield_10281",
+    "name": "Latest Update"
+  },
+  {
+    "key": "customfield_10282",
+    "name": "Nama Perguruan Tinggi"
+  },
+  {
+    "key": "customfield_10283",
+    "name": "Kategori"
+  },
+  {
+    "key": "customfield_10284",
+    "name": "Nama Channel Pembayaran"
+  },
+  {
+    "key": "customfield_10164",
+    "name": "Produk"
+  },
+  {
+    "key": "customfield_10285",
+    "name": "Modul"
+  },
+  {
+    "key": "reporter",
+    "name": "Reporter"
+  },
+  {
+    "key": "customfield_10044",
+    "name": "Budget"
+  },
+  {
+    "key": "customfield_10286",
+    "name": "Due Date BAST"
+  },
+  {
+    "key": "customfield_10165",
+    "name": "Test PT"
+  },
+  {
+    "key": "customfield_10045",
+    "name": "Cost"
+  },
+  {
+    "key": "customfield_10287",
+    "name": "Halaman"
+  },
+  {
+    "key": "customfield_10167",
+    "name": "Feature"
+  },
+  {
+    "key": "customfield_10288",
+    "name": "Ticket LiveChat"
+  },
+  {
+    "key": "customfield_10047",
+    "name": "Peoples in Charge (Assignees)"
+  },
+  {
+    "key": "customfield_10289",
+    "name": "Modul"
+  },
+  {
+    "key": "customfield_10168",
+    "name": "Dependency"
+  },
+  {
+    "key": "customfield_10169",
+    "name": "Perbaikan Custom Report ke.."
+  },
+  {
+    "key": "customfield_10038",
+    "name": "URL Dokumen"
+  },
+  {
+    "key": "customfield_10039",
+    "name": "No. Dokumen"
+  },
+  {
+    "key": "progress",
+    "name": "Progress"
+  },
+  {
+    "key": "customfield_10270",
+    "name": "Aplikasi"
+  },
+  {
+    "key": "customfield_10150",
+    "name": "Release Version"
+  },
+  {
+    "key": "customfield_10271",
+    "name": "Target Rilis"
+  },
+  {
+    "key": "customfield_10030",
+    "name": "Total forms"
+  },
+  {
+    "key": "customfield_10151",
+    "name": "Type Task"
+  },
+  {
+    "key": "customfield_10272",
+    "name": "Priority Drax"
+  },
+  {
+    "key": "project",
+    "name": "Project"
+  },
+  {
+    "key": "customfield_10031",
+    "name": "Category"
+  },
+  {
+    "key": "customfield_10152",
+    "name": "Module"
+  },
+  {
+    "key": "customfield_10273",
+    "name": "Channel"
+  },
+  {
+    "key": "customfield_10153",
+    "name": "Category"
+  },
+  {
+    "key": "customfield_10274",
+    "name": "Nama PT"
+  },
+  {
+    "key": "customfield_10154",
+    "name": "Ticket - Live chat"
+  },
+  {
+    "key": "customfield_10275",
+    "name": "AM"
+  },
+  {
+    "key": "customfield_10276",
+    "name": "Form Biller"
+  },
+  {
+    "key": "customfield_10155",
+    "name": "Type Task"
+  },
+  {
+    "key": "customfield_10035",
+    "name": "Story Points"
+  },
+  {
+    "key": "customfield_10277",
+    "name": "Assignee QA"
+  },
+  {
+    "key": "customfield_10036",
+    "name": "Divisi"
+  },
+  {
+    "key": "customfield_10278",
+    "name": "Bug Development"
+  },
+  {
+    "key": "customfield_10157",
+    "name": "Feature"
+  },
+  {
+    "key": "customfield_10037",
+    "name": "Risk ID"
+  },
+  {
+    "key": "customfield_10279",
+    "name": "Vulnerability"
+  },
+  {
+    "key": "customfield_10027",
+    "name": "Locked forms"
+  },
+  {
+    "key": "customfield_10148",
+    "name": "Delegate to team"
+  },
+  {
+    "key": "customfield_10269",
+    "name": "Link Merge Request Gitlab"
+  },
+  {
+    "key": "customfield_10028",
+    "name": "Open forms"
+  },
+  {
+    "key": "customfield_10149",
+    "name": "PIC incharge"
+  },
+  {
+    "key": "customfield_10029",
+    "name": "Submitted forms"
+  },
+  {
+    "key": "resolutiondate",
+    "name": "Resolved"
+  },
+  {
+    "key": "watches",
+    "name": "Watchers"
+  },
+  {
+    "key": "customfield_10260",
+    "name": "Modul Task"
+  },
+  {
+    "key": "customfield_10140",
+    "name": "Content type"
+  },
+  {
+    "key": "customfield_10261",
+    "name": "Tagging Case"
+  },
+  {
+    "key": "customfield_10020",
+    "name": "Sprint"
+  },
+  {
+    "key": "customfield_10141",
+    "name": "Publication date"
+  },
+  {
+    "key": "customfield_10262",
+    "name": "Tagging Urgency"
+  },
+  {
+    "key": "customfield_10021",
+    "name": "Flagged"
+  },
+  {
+    "key": "customfield_10142",
+    "name": "Tagging"
+  },
+  {
+    "key": "customfield_10263",
+    "name": "Catatan Kendala"
+  },
+  {
+    "key": "customfield_10022",
+    "name": "Target start"
+  },
+  {
+    "key": "customfield_10143",
+    "name": "Ticket - Live chat"
+  },
+  {
+    "key": "customfield_10264",
+    "name": "Catatan Kendala"
+  },
+  {
+    "key": "customfield_10023",
+    "name": "Target end"
+  },
+  {
+    "key": "customfield_10144",
+    "name": "Log Time"
+  },
+  {
+    "key": "customfield_10265",
+    "name": "Department"
+  },
+  {
+    "key": "customfield_10024",
+    "name": "[CHART] Date of First Response"
+  },
+  {
+    "key": "com.alphaserve.checklist.jira-checklist__checklist-open-items",
+    "name": "Open checklist items"
+  },
+  {
+    "key": "customfield_10025",
+    "name": "[CHART] Time in Status"
+  },
+  {
+    "key": "com.alphaserve.checklist.jira-checklist__checklist-closed-items",
+    "name": "Closed checklist items"
+  },
+  {
+    "key": "customfield_10267",
+    "name": "Accountable"
+  },
+  {
+    "key": "com.alphaserve.checklist.jira-checklist__checklist-total-number-of-items",
+    "name": "Total number of checklist items"
+  },
+  {
+    "key": "customfield_10268",
+    "name": "Versi Changelog"
+  },
+  {
+    "key": "customfield_10016",
+    "name": "Story point estimate"
+  },
+  {
+    "key": "customfield_10137",
+    "name": "Category"
+  },
+  {
+    "key": "customfield_10258",
+    "name": "Status Revisi"
+  },
+  {
+    "key": "customfield_10017",
+    "name": "Issue color"
+  },
+  {
+    "key": "customfield_10259",
+    "name": "Design"
+  },
+  {
+    "key": "customfield_10138",
+    "name": "Request Date (Client)"
+  },
+  {
+    "key": "customfield_10018",
+    "name": "Parent Link"
+  },
+  {
+    "key": "customfield_10139",
+    "name": "Link Google Sheets"
+  },
+  {
+    "key": "customfield_10019",
+    "name": "Rank"
+  },
+  {
+    "key": "updated",
+    "name": "Updated"
+  },
+  {
+    "key": "customfield_10490",
+    "name": "Department"
+  },
+  {
+    "key": "timeoriginalestimate",
+    "name": "Original estimate"
+  },
+  {
+    "key": "customfield_10491",
+    "name": "Department"
+  },
+  {
+    "key": "customfield_10370",
+    "name": "Acceptance Criteria"
+  },
+  {
+    "key": "customfield_10371",
+    "name": "Nama Tenant"
+  },
+  {
+    "key": "customfield_10130",
+    "name": "Link File"
+  },
+  {
+    "key": "customfield_10372",
+    "name": "Link Backup"
+  },
+  {
+    "key": "description",
+    "name": "Description"
+  },
+  {
+    "key": "customfield_10010",
+    "name": "Request Type"
+  },
+  {
+    "key": "com.atlassian.atlas.jira__project-key",
+    "name": "Project overview key"
+  },
+  {
+    "key": "customfield_10252",
+    "name": "Release date"
+  },
+  {
+    "key": "customfield_10011",
+    "name": "Epic Name"
+  },
+  {
+    "key": "com.atlassian.atlas.jira__project-status",
+    "name": "Project overview status"
+  },
+  {
+    "key": "customfield_10253",
+    "name": "Department"
+  },
+  {
+    "key": "customfield_10012",
+    "name": "Epic Status"
+  },
+  {
+    "key": "customfield_10254",
+    "name": "Jumlah Data Yang Diproses"
+  },
+  {
+    "key": "customfield_10133",
+    "name": "Jenis Penyesuaian"
+  },
+  {
+    "key": "customfield_10496",
+    "name": "Department"
+  },
+  {
+    "key": "customfield_10013",
+    "name": "Epic Color"
+  },
+  {
+    "key": "customfield_10134",
+    "name": "Jenis Pekerjaan"
+  },
+  {
+    "key": "customfield_10255",
+    "name": "Details"
+  },
+  {
+    "key": "customfield_10497",
+    "name": "Department"
+  },
+  {
+    "key": "customfield_10014",
+    "name": "Epic Link"
+  },
+  {
+    "key": "customfield_10256",
+    "name": "Work Start date (Revisi)"
+  },
+  {
+    "key": "customfield_10135",
+    "name": "Ticket Number"
+  },
+  {
+    "key": "customfield_10015",
+    "name": "Start date"
+  },
+  {
+    "key": "customfield_10257",
+    "name": "Work Close date (Revisi)"
+  },
+  {
+    "key": "customfield_10136",
+    "name": "Score"
+  },
+  {
+    "key": "customfield_10499",
+    "name": "Alasan Reject"
+  },
+  {
+    "key": "customfield_10005",
+    "name": "Change type"
+  },
+  {
+    "key": "customfield_10247",
+    "name": "Tanggal Awal Kontrak"
+  },
+  {
+    "key": "customfield_10126",
+    "name": "Kode PT"
+  },
+  {
+    "key": "customfield_10368",
+    "name": "Priority"
+  },
+  {
+    "key": "customfield_10489",
+    "name": "Test Status"
+  },
+  {
+    "key": "customfield_10006",
+    "name": "Change risk"
+  },
+  {
+    "key": "customfield_10127",
+    "name": "User Request"
+  },
+  {
+    "key": "customfield_10248",
+    "name": "Tanggal Akhir Kontrak"
+  },
+  {
+    "key": "customfield_10369",
+    "name": "Koordinasi"
+  },
+  {
+    "key": "customfield_10007",
+    "name": "Change reason"
+  },
+  {
+    "key": "customfield_10128",
+    "name": "Category"
+  },
+  {
+    "key": "customfield_10008",
+    "name": "Actual start"
+  },
+  {
+    "key": "customfield_10129",
+    "name": "Module"
+  },
+  {
+    "key": "customfield_10009",
+    "name": "Actual end"
+  },
+  {
+    "key": "summary",
+    "name": "Summary"
+  },
+  {
+    "key": "customfield_10360",
+    "name": "Task"
+  },
+  {
+    "key": "customfield_10240",
+    "name": "Link Aplikasi"
+  },
+  {
+    "key": "customfield_10361",
+    "name": "KPI"
+  },
+  {
+    "key": "customfield_10241",
+    "name": "Nama Perguruan Tinggi"
+  },
+  {
+    "key": "customfield_10362",
+    "name": "Target"
+  },
+  {
+    "key": "customfield_10120",
+    "name": "Halaman"
+  },
+  {
+    "key": "customfield_10000",
+    "name": "Development"
+  },
+  {
+    "key": "customfield_10121",
+    "name": "Reason"
+  },
+  {
+    "key": "customfield_10242",
+    "name": "Kode PT"
+  },
+  {
+    "key": "customfield_10363",
+    "name": "Actual"
+  },
+  {
+    "key": "customfield_10001",
+    "name": "Team"
+  },
+  {
+    "key": "customfield_10122",
+    "name": "Company size"
+  },
+  {
+    "key": "customfield_10243",
+    "name": "Nama Perguruan Tinggi"
+  },
+  {
+    "key": "customfield_10364",
+    "name": "Role"
+  },
+  {
+    "key": "customfield_10002",
+    "name": "Organizations"
+  },
+  {
+    "key": "customfield_10123",
+    "name": "Website"
+  },
+  {
+    "key": "customfield_10244",
+    "name": "Kode PT"
+  },
+  {
+    "key": "customfield_10365",
+    "name": "Fitur"
+  },
+  {
+    "key": "customfield_10003",
+    "name": "Approvers"
+  },
+  {
+    "key": "customfield_10124",
+    "name": "Email"
+  },
+  {
+    "key": "customfield_10245",
+    "name": "Tanggal Aktivasi"
+  },
+  {
+    "key": "customfield_10366",
+    "name": "Priority"
+  },
+  {
+    "key": "customfield_10004",
+    "name": "Impact"
+  },
+  {
+    "key": "customfield_10125",
+    "name": "Phone number"
+  },
+  {
+    "key": "customfield_10246",
+    "name": "Tanggal Churn"
+  },
+  {
+    "key": "customfield_10367",
+    "name": "Priority"
+  },
+  {
+    "key": "customfield_10115",
+    "name": "Cost"
+  },
+  {
+    "key": "customfield_10236",
+    "name": "Detail Custom Report"
+  },
+  {
+    "key": "customfield_10357",
+    "name": "Actual Revenue"
+  },
+  {
+    "key": "customfield_10116",
+    "name": "Status Release"
+  },
+  {
+    "key": "customfield_10237",
+    "name": "Waktu Deal"
+  },
+  {
+    "key": "customfield_10358",
+    "name": "Target Client"
+  },
+  {
+    "key": "customfield_10117",
+    "name": "Category Notes"
+  },
+  {
+    "key": "customfield_10238",
+    "name": "Waktu Kontak"
+  },
+  {
+    "key": "customfield_10359",
+    "name": "Actual Client"
+  },
+  {
+    "key": "customfield_10118",
+    "name": "Real Work Close Date"
+  },
+  {
+    "key": "customfield_10239",
+    "name": "Pilihan Paket"
+  },
+  {
+    "key": "customfield_10119",
+    "name": "Modul Task"
+  },
+  {
+    "key": "comment",
+    "name": "Comment"
+  },
+  {
+    "key": "statuscategorychangedate",
+    "name": "Status Category Changed"
+  },
+  {
+    "key": "fixVersions",
+    "name": "Fix versions"
+  },
+  {
+    "key": "priority",
+    "name": "Priority"
+  },
+  {
+    "key": "versions",
+    "name": "Affects versions"
+  },
+  {
+    "key": "issuekey",
+    "name": "Key"
+  },
+  {
+    "key": "aggregateprogress",
+    "name": "Σ Progress"
+  },
+  {
+    "key": "issuerestriction",
+    "name": "Restrict to"
+  },
+  {
+    "key": "thumbnail",
+    "name": "Images"
+  },
+  {
+    "key": "created",
+    "name": "Created"
+  },
+  {
+    "key": "customfield_10090",
+    "name": "Category Task"
+  },
+  {
+    "key": "customfield_10091",
+    "name": "Sumber Data"
+  },
+  {
+    "key": "customfield_10092",
+    "name": "Jenis Penyesuaian Laporan"
+  },
+  {
+    "key": "customfield_10093",
+    "name": "Close date"
+  },
+  {
+    "key": "customfield_10094",
+    "name": "Lama Pengerjaan (Hari)"
+  },
+  {
+    "key": "customfield_10095",
+    "name": "Waktu Pengerjaan (Jam)"
+  },
+  {
+    "key": "customfield_10096",
+    "name": "Entry Date (Task Masuk)"
+  },
+  {
+    "key": "customfield_10098",
+    "name": "Work Due Date"
+  },
+  {
+    "key": "customfield_10099",
+    "name": "Work Close date"
+  },
+  {
+    "key": "security",
+    "name": "Security Level"
+  },
+  {
+    "key": "attachment",
+    "name": "Attachment"
+  },
+  {
+    "key": "customfield_10082",
+    "name": "Checklist Completed"
+  },
+  {
+    "key": "customfield_10083",
+    "name": "Checklist Content YAML"
+  },
+  {
+    "key": "customfield_10084",
+    "name": "Checklist Text"
+  },
+  {
+    "key": "com.alphaserve.checklist.jira-checklist__checklist-last-update",
+    "name": "Checklist last update"
+  },
+  {
+    "key": "customfield_10086",
+    "name": "Jenis Pekerjaan"
+  },
+  {
+    "key": "customfield_10087",
+    "name": "Kode PT"
+  },
+  {
+    "key": "customfield_10088",
+    "name": "Ticket Number"
+  },
+  {
+    "key": "customfield_10089",
+    "name": "Task Scope"
+  }
+]
