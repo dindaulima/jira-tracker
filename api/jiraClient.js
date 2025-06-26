@@ -8,7 +8,6 @@ const USERNAME = process.env.JIRA_EMAIL;
 const API_TOKEN = process.env.JIRA_API_TOKEN;
 const PROJECT = process.env.JIRA_PROJECT_KEY;
 
-
 const AUTH = Buffer.from(`${USERNAME}:${API_TOKEN}`).toString('base64');
 
 export async function getFieldName(){
@@ -125,5 +124,48 @@ export async function updateJiraIssue (issueIdOrKey, fields){
         console.log(`Issue ${issueIdOrKey} updated successfully`);
     } catch (error) {
         console.error("Error updating Jira issue:", error.message);
+    }
+}
+
+export async function getMonthlyJiraIssues(startDate, endDate) {
+    const API_ENDPOINT = "/rest/api/3/search?jql=";
+    const CONDITION  = `updated >= ${startDate} AND updated < ${endDate}`;
+    const jql = `${PROJECT} and ${CONDITION}`;
+
+    try {
+        let allIssues = [];
+        let startAt = 0;
+        let total = -1;
+
+        do {
+            const response = await fetch(`${JIRA_DOMAIN}${API_ENDPOINT}${encodeURIComponent(jql)}&startAt=${startAt}&maxResults=100`, {
+                method: "GET",
+                headers: {
+                    "Authorization": `Basic ${AUTH}`,
+                    "Accept": "application/json"
+                }
+            });
+            console.log(`${JIRA_DOMAIN}${API_ENDPOINT}${jql}&startAt=${startAt}&maxResults=100`);
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+
+            const data = await response.json();
+
+            if (total === -1) {
+                total = data.total; // Set the total on the first request
+            }
+
+            allIssues = allIssues.concat(data.issues);
+            startAt += data.maxResults;
+            
+        } while (startAt < total);
+
+        fs.writeFileSync("data/jira-monthly-issues.json", JSON.stringify(allIssues, null, 2), "utf8");
+        console.log("✅ All  data successfully saved to jira-monthly-issues.json");
+
+    } catch (error) {
+        console.error("❌ Error fetching Jira data:", error);
+        return [];
     }
 }

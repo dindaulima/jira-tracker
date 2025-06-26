@@ -1,50 +1,67 @@
 import fs from 'fs';
+import { get } from 'http';
+import path  from 'path';
 
 //function to get selected fields
-export function getCustomFields_old(testcase = 1, acceptanceCriteria = 1, qaFeedback = 1, completeDocumentation = 1) {
+export function getCustomFields(type="all") {
 
   const allfields = JSON.parse(fs.readFileSync('./data/all-fields.json', 'utf8'));
 
-  const fieldsTestCase = allfields.filter(item => item.name.toLowerCase().includes("test case"));
-  const fieldsAcceptanceCriteria = allfields.filter(item => item.name.toLowerCase().includes("acceptance criteria"));
-  const fieldQAFeedback = allfields.filter(item => item.name.toLowerCase().includes("qa feedback"));
-  const fieldCompleteDocumentation = allfields.filter(item => item.name.toLowerCase().includes("complete documentation"));
+  if(type === "all") {
+    return allfields;
+  } else if(type === "documentation") {
+    return getDocumentationfields();
+  } else if(type === "assignee") {
+    return getAssigneeFields();
+  }
 
-  let fields = [];
-  if(testcase) fields = fields.concat(fieldsTestCase);
-  if(acceptanceCriteria) fields = fields.concat(fieldsAcceptanceCriteria);
-  if(qaFeedback) fields = fields.concat(fieldQAFeedback);
-  if(completeDocumentation) fields = fields.concat(fieldCompleteDocumentation);
+  return null;
 
-  return fields;
 }
 
-export function getCustomFields(myfields = []) {
+export function getDocumentationfields() {
 
     const allfields = JSON.parse(fs.readFileSync('./data/all-fields.json', 'utf8'));
-  
     const fieldsTestCase = allfields.filter(item => item.name.toLowerCase().includes("test case"));
     const fieldsAcceptanceCriteria = allfields.filter(item => item.name.toLowerCase().includes("acceptance criteria"));
     const fieldQAFeedback = allfields.filter(item => item.name.toLowerCase().includes("qa feedback"));
     const fieldCompleteDocumentation = allfields.filter(item => item.name.toLowerCase().includes("complete documentation"));
-  
+
     let fields = [];
-    // hardcode karena penulisan custom field jira dibuat seragam
-    for (const myfield of myfields) {
-        if(myfield=="acceptance-criteria") fields = fields.concat(fieldsAcceptanceCriteria);
-        if(myfield=="test-case") fields = fields.concat(fieldsTestCase);
-        if(myfield=="qa-feedback") fields = fields.concat(fieldQAFeedback);
-        if(myfield=="complete-documentation") fields = fields.concat(fieldCompleteDocumentation);
-    }
+
+    fields = fields.concat(fieldsAcceptanceCriteria);
+    fields = fields.concat(fieldsTestCase);
+    fields = fields.concat(fieldQAFeedback);
+    fields = fields.concat(fieldCompleteDocumentation);
 
     return fields;
-  }
+}
+
+export function getAssigneeFields() {
+
+    const allfields = JSON.parse(fs.readFileSync('./data/all-fields.json', 'utf8'));
+    const assignee1 = allfields.filter(item => item.name.toLowerCase().includes("assignee"));
+    const assignee2 = allfields.filter(item => item.name.toLowerCase().includes("assignee qa"));
+    const assignee3 = allfields.filter(item => item.name.toLowerCase().includes("qa/tester"));
+    const assignee4 = allfields.filter(item => item.name.toLowerCase().includes("tester/qa"));
+    const assignee5 = allfields.filter(item => item.name.toLowerCase().includes("qa"));
+
+
+    let fields = [];
+    fields = fields.concat(assignee1);
+    fields = fields.concat(assignee2);
+    fields = fields.concat(assignee3);
+    fields = fields.concat(assignee4);
+    fields = fields.concat(assignee5);
+
+    return fields;
+}
 
 export function getSelectedFields(data, myCustomFields = []) {
   const standardFields = ["summary", "description", "status", "assignee", "created", "updated"];
 
   const fields = data.fields;
-
+ 
   // Extract standard fields dynamically
   const filteredData = {};
   filteredData.key = data.key;
@@ -53,14 +70,13 @@ export function getSelectedFields(data, myCustomFields = []) {
           filteredData[field] = fields[field];
       }
   });
+  
   // Extract custom fields dynamically
   myCustomFields.forEach(field => {
     if (fields[field.key] !== undefined) {
         let temp = {};
-
         temp.key = field.key; // Custom field key dibutuhkan untuk proses update data
         temp.value = fields[field.key];
-
         filteredData[field.name] = temp;
     }
   });
@@ -186,3 +202,22 @@ export function extractQAFeedback(data) {
     }
 }
 
+export function saveDataToFile(data, outputFolder='data', outputFile) {
+    // Create the full path to the output file
+    const outputPath = path.join(outputFolder, outputFile);
+
+    // Check if the 'data' directory exists, and create it if it doesn't
+    if (!fs.existsSync(outputFolder)) {
+        console.log(`Creating directory: '${outputFolder}'`);
+        fs.mkdirSync(outputFolder);
+    }
+
+    // Convert the array of issues to a human-readable JSON string
+    // The 'null, 2' part formats the JSON nicely with an indentation of 2 spaces
+    const jsonData = JSON.stringify(data, null, 2);
+
+    // Write the JSON string to the file
+    fs.writeFileSync(outputPath, jsonData);
+
+    console.log(`Successfully saved all ${data.length} data to: ${outputPath}`);
+}
