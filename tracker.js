@@ -1,8 +1,12 @@
 import { start } from 'repl';
-import { getMonthlyJiraIssues, getDetailIssue} from './api/jiraClient.js';
+import { getFieldName, getMonthlyJiraIssues, getDetailIssue} from './api/jiraClient.js';
 import { saveDataToFile, getCustomFields, getSelectedFields, formatTestCase, extractQAFeedback} from './utils/dataProcessor.js';
 import fs from 'fs';
 monthlyReport();
+async function getNewestJirFields() {
+    getFieldName();
+}
+// getNewestJirFields();
 
 async function monthlyReport() {
 
@@ -19,9 +23,16 @@ async function monthlyReport() {
 
     for (const issue of issues) {
         // console.log(`Processing issue: ${issue.key}`);
+
+
         // get selected fields
         issuePruned = getSelectedFields(issue,mycustomFields);
+
+        if(issue.key === "BRAVO-134") {
+            console.log(JSON.stringify(issuePruned));
+    
+            }
     }
 
-    console.log(issuePruned);
+    // console.log(issuePruned);
 }

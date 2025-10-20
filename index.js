@@ -5,7 +5,8 @@ async function main() {
 
     // get all jira that were updated yesterday
     const issues = await getIssuesUpdatedRecently();
-    const myCustomFields = getCustomFields(["acceptance-criteria","test-case", "qa-feedback","complete-documentation"]);
+    const myCustomFields = getCustomFields("documentation");
+
 
     // track each issue
     for (const issue of issues) {

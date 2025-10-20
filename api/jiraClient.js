@@ -29,12 +29,12 @@ export async function getFieldName(){
         const data = await response.json();
         
 
-        fields = data.map(field => ({
+        const fields = data.map(field => ({
             key: field.key,
             name: field.name
         }));
-
-        fs.writeFileSync("../data/all-fields.json", JSON.stringify(fields, null, 2), "utf8");
+// console.log(fields);
+        fs.writeFileSync("data/all-fields.json", JSON.stringify(fields, null, 2), "utf8");
         console.log("✅ All fields data successfully saved to all-fields.json");
 
     } catch (error) {
